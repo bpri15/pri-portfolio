@@ -54,7 +54,7 @@ function Footer() {
     <StyledFooter fluid className="footer">
       <Row>
         <StyledFooterCopywright md="4">
-          <h3>Made by Ayush Srivastava</h3>
+          <h3>Made by Priyanshu Bansal</h3>
         </StyledFooterCopywright>
         <StyledFooterCopywright md="4">
           <h3>Copyright © {year} AY</h3>

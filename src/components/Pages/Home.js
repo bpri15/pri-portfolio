@@ -6,7 +6,7 @@ import cover from "../../assets/cover.png";
 import styled, { keyframes } from "styled-components";
 // import 'bootstrap/dist/css/bootstrap.min.css';
 import {Button} from 'react-bootstrap';
-import ayush from "../../assets/Ayush.jpg";
+import priyanshu from "src/assets/Priyanshu.JPG";
 import Type from "../Type";
 
 function Home() {
@@ -36,7 +36,7 @@ function Home() {
               <BUTTON>Resume</BUTTON>
             </Col>
             <Col md={12} lg={5} style={{ paddingTop: '2rem'}}>
-                <Img src={ayush} alt="ayush" className="img-fluid"/>
+                <Img src={priyanshu} alt="priyanshu" className="img-fluid"/>
             </Col>
             </Rows>
         </StyledContainer>
