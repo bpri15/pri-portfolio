@@ -116,7 +116,7 @@ const Navbar = () => {
   return (
     <NavbarContainer isScrolled={isScrolled}>
       <LogoContainer to="/">
-        <Logo>Ayush Srivastava</Logo>
+        <Logo>Priyanshu Bansal</Logo>
       </LogoContainer>
 
       <NavMenu click={click}>
