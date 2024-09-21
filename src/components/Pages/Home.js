@@ -36,7 +36,7 @@ function Home() {
               <BUTTON>Resume</BUTTON>
             </Col>
             <Col md={12} lg={5} style={{ paddingTop: '2rem'}}>
-                <Img src={ayush} alt="ayush" className="img-fluid"/>
+                <Img src={ayush} alt="Priyanshu" className="img-fluid"/>
             </Col>
             </Rows>
         </StyledContainer>
