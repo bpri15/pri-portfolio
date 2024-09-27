@@ -78,33 +78,29 @@ function Project(){
             <Resrow>
             <Col>
             <ProjectBox
-              title="SOSH"
-              techStack="MERN Stack"
-              description="Description "
-              giturl="https://github.com/Sriyush/Mern-project"
+              projectName="Fake Image Detector"
+              description={["Detects difference between AI generated images and real images using various Computer Vision techniques"]}
+              url="https://github.com/bpri15/Fake-Image-Detector"
               image = {smern}
             />
             <ProjectBox
-              title="VideoFam"
-              techStack="Flutter and FIrebase"
-              description="Description"
-              giturl="https://github.com/Sriyush/VideoFam-Flutter   "
+              projectName="AstroRun"
+              description={["Unity game with 2 levels. Player can walk in multiple direction. Need to reach to the portal to pass the level"]}
+              url="https://github.com/bpri15/AstroWalk"
               image = {vid}
             />
             </Col>
           <Col>
             <ProjectBox
-              title="Todlearn"
-              techStack="Flutter and Firebase"
-              description="Description "
-              giturl="https://github.com/Sriyush/TodLearn"
+              projectName="Todlearn"
+              description={["Description "]}
+              url="https://github.com/Sriyush/TodLearn"
               image = {tod}
             />
             <ProjectBox
-              title="Foodie"
-              techStack="Flutter and Firebase"
-              description="Description "
-              giturl="https://github.com/Sriyush/Foddie-flutterapp"
+              projectName="Foodie"
+              description={["Description "]}
+              url="https://github.com/Sriyush/Foddie-flutterapp"
               image = {log}
             />
           </Col>

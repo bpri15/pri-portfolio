@@ -6,7 +6,7 @@ import cover from "../../assets/cover.png";
 import styled, { keyframes } from "styled-components";
 // import 'bootstrap/dist/css/bootstrap.min.css';
 import {Button} from 'react-bootstrap';
-import ayush from "../../assets/Priyanshu.JPG";
+import ayush from "../../assets/Priyanshu1.jpg";
 import Type from "../Type";
 
 function Home() {
@@ -33,9 +33,9 @@ function Home() {
               <StyledType>
                 <Type />
               </StyledType>
-              <BUTTON>Resume</BUTTON>
+              {/* <BUTTON>Resume</BUTTON> */}
             </Col>
-            <Col md={12} lg={5} style={{ paddingTop: '2rem'}}>
+            <Col md={12} lg={5} style={{ paddingTop: '0rem'}}>
                 <Img src={ayush} alt="Priyanshu" className="img-fluid"/>
             </Col>
             </Rows>
@@ -134,11 +134,19 @@ const Strongheading = styled.strong`
   }
 `;
 const Img = styled.img`
-  width: 15rem; /* Set the desired width */
-  height: 15rem; /* Set the desired height */
-  border-radius: 40%; /* Make it circular */
+  // width: 25rem; /* Set the desired width */
+  // height: 25rem; /* Set the desired height */
+  // border-radius: 40%; /* Make it circular */
+  // @media (max-width: 760px) {
+  // display:none;
+  // }
+  idth: 25rem;
+  height: 25rem;
+  border-radius: 40%;
+  transition: all 0.8s ease-in-out; /* Smooth transition on size change */
+  
   @media (max-width: 760px) {
-  display:none;
+    display: none;
   }
 //   transform: translateY(-75%);
 //   margin-left: 400px;

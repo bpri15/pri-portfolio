@@ -15,13 +15,14 @@ import {
     AiOutlineInstagram,
   } from "react-icons/ai";
   import { FaLinkedinIn } from "react-icons/fa";
+  import { SiGmail } from "react-icons/si";
   const SidebarWrapper = styled.div`
   position: fixed;
   top: 0;
   left: 0;
   margin-left: 30px;
   transform: translateY(50%);
-  height: 50%;
+  height: 20%;
   border-radius: 5px;
   @media (max-width: 768px) {
     display: none;
@@ -122,6 +123,20 @@ function Sidebar() {
       </IconTextContainer>
 
       <IconTextContainer>
+      <Nav.Link as={Link} to="/experience" onClick={() => updateExpanded(false)} style={{ textDecoration: "none" }}>
+        <SidebarIcon><AiOutlineUser style={{height: '20px', width: '20px'}}/></SidebarIcon>
+        <TextIcon>Experience</TextIcon>
+      </Nav.Link>
+      </IconTextContainer>
+
+      <IconTextContainer>
+      <Nav.Link as={Link} to="/Cert&Skills" onClick={() => updateExpanded(false)} style={{ textDecoration: "none" }}>
+        <SidebarIcon><AiOutlineUser style={{height: '20px', width: '20px'}}/></SidebarIcon>
+        <TextIcon>Cert & Skills</TextIcon>
+      </Nav.Link>
+      </IconTextContainer>
+
+      <IconTextContainer>
       <Nav.Link as={Link} to="/projects" onClick={() => updateExpanded(false)} style={{ textDecoration: "none" }}>
         <SidebarIcon><AiOutlineFundProjectionScreen style={{height: '20px', width: '20px'}}/></SidebarIcon>
         <TextIcon>Projects</TextIcon>
@@ -145,7 +160,7 @@ function Sidebar() {
           <ul>
             <Li> 
               <a
-                href="https://github.com/Sriyush"
+                href="https://github.com/bpri15"
                 style={{ color:"#2a9d8f" }}
                 target="_blank" 
                 rel="noopener noreferrer"
@@ -154,20 +169,10 @@ function Sidebar() {
                 <p>Github</p>
               </a>
             </Li>
+            
             <Li>
               <a
-                href="https://twitter.com/Sriyush1"
-                style={{ color: "lightblue" }}
-                target="_blank" 
-                rel="noopener noreferrer"
-              >
-                <AiOutlineTwitter style={{height: '25px', width: '25px'}}/>
-                <p>Twitter</p>
-              </a>
-            </Li>
-            <Li>
-              <a
-                href="https://www.linkedin.com/in/sriyush/"
+                href="https://www.linkedin.com/in/bpri1504"
                 style={{ color:"#0277b5"}}
                 target="_blank" 
                 rel="noopener noreferrer"
@@ -178,13 +183,24 @@ function Sidebar() {
             </Li>
             <Li >
               <a
-                href="https://www.instagram.com/sriyush_/"
+                href="https://www.instagram.com/bpri1504/"
                 style={{ color:"#b5179e" }}
                 target="_blank" 
                 rel="noopener noreferrer"
               >
                 <AiOutlineInstagram style={{height: '25px', width: '25px'}}/>
                 <p>instagram</p>
+              </a>
+            </Li>
+            <Li >
+              <a
+                href="https://mail.google.com/mail/?view=cm&fs=1&to=priyanshubansal2003@gmail.com"
+                style={{ color:"#b5179e" }}
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                <SiGmail style={{height: '25px', width: '25px'}}/>
+                <p>Mail</p>
               </a>
             </Li>
           </ul>

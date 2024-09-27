@@ -57,7 +57,7 @@ function Footer() {
           <h3>Made by Priyanshu Bansal</h3>
         </StyledFooterCopywright>
         <StyledFooterCopywright md="4">
-          <h3>Copyright © {year} AY</h3>
+          <h3>Copyright © {year} PB</h3>
         </StyledFooterCopywright>
         <StyledFooterBody md="4">
           <ul className="footer-icons">

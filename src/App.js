@@ -12,6 +12,8 @@ import Home from "./components/Pages/Home";
 import Sidebar from "./components/Sidebar";
 import About from "./components/Pages/About";
 import Project from "./components/Pages/Projects";
+import Experience from "./components/Pages/Experience";
+import Cert_Skills from "./components/Pages/Cert&Skills";
 import Footer from "./components/Footer";
 import ScrollToTop from "./components/Scrolltotop";
 function App() {
@@ -24,9 +26,11 @@ function App() {
       <Routes>
         <Route path="/" element={<Home/>} />
         <Route path="/about" element={<About/>} />
+        <Route path="/experience" element={<Experience/>} />
+        <Route path="/Cert&Skills" element={<Cert_Skills/>} />
         <Route path="/projects" element={<Project/>} />
       </Routes>
-      <Footer/>
+      {/* <Footer /> */}
       </div>
     </Router>
   );

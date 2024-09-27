@@ -442,6 +442,18 @@ const Navbar = () => {
         </NavItem>
 
         <NavItem>
+          <NavLink to="/experience" className="hoverElement" onClick={handleClick}>
+            Experience
+          </NavLink>
+        </NavItem>
+
+        <NavItem>
+          <NavLink to="/Cert&Skills" className="hoverElement" onClick={handleClick}>
+            Cert & Skills
+          </NavLink>
+        </NavItem>
+
+        <NavItem>
           <NavLink to="/projects" className="hoverElement" onClick={handleClick}>
             Projects
           </NavLink>
